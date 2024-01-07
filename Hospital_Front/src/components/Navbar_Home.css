@@ -1,0 +1,36 @@
+.navbar {
+  border-radius: 15px;
+  background-color: #95BFA4;
+  width: 95%;
+  margin: 10px;
+}
+.navbar-checkin {
+  border-radius: 15px;
+  background-color: #90A19D;
+  width: 95%;
+  margin: 10px;
+}
+.navbar {
+  border-radius: 15px;
+  background-color: #95BFA4;
+  width: 95%;
+  margin: 10px;
+}
+.navbar {
+  border-radius: 15px;
+  background-color: #95BFA4;
+  width: 95%;
+  margin: 10px;
+}
+
+.navbar-toggler{
+  width: 60px;
+}
+.navbar-toggler:hover {
+  background-color: #799b85 ;
+  
+}
+
+.logo{
+  margin-left: 30px;
+}

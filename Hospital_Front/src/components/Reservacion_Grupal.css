@@ -1,0 +1,36 @@
+.border_special{
+    border: 1px solid;
+    border-color: black; 
+}
+.border_special_2{
+    border: 1px solid;
+    border-color: rgba(0, 0, 0, 0.37); 
+    padding: 30px;
+}
+.border_top{
+    border-top: 1px solid;
+    border-color: black; 
+    margin-top: 30px;
+}
+input:hover{
+    border: none;
+    border-bottom: 1px solid;
+    border-color: black;
+}
+.input_special{
+    border: none;
+    border-bottom: 1px solid;
+    border-color: black;
+}
+.input_special:hover{
+    border: none;
+    border-bottom: 1px solid;
+    border-color: black;
+}
+.input_none{
+    border:none;
+}
+
+.font_size_one{
+    font-size: 20px;
+}

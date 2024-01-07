@@ -1,0 +1,490 @@
+
+/*Encapsulamiento de columnas*/
+.room{
+    padding-right: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+}
+
+.room-one{
+    padding: 9vw;
+}
+
+/*Lineas que dividen los iconos*/
+.border_sp{
+    border-color: black;
+    border-left: 1.5px solid;
+    border-right: 1.5px solid;
+
+}
+
+/*Tamaño del grosor del titulo*/
+.font_wig{
+    font-weight: 500;
+}
+
+/*Color de fuente y tamaño del contenido debajo del titulo*/
+.font_size{
+    font-weight: bold;
+    font-size: calc(1.3em);
+    color: rgba(66, 66, 66, 0.7);
+}
+
+/*Color de fuente y tamaño del texto de iniciar sesion en los componentes de cuadro en la pagina de inicio*/
+.font_size_two{
+    font-size: calc(1em);
+
+    color: rgba(66, 66, 66, 0.5);
+}
+
+/*Color de fuente y tamaño del texto del contenido en los componentes de cuadro en la pagina de inicio*/
+.font_size_three{
+    font-size: calc(1em);
+    color: rgba(66, 66, 66, 0.75);
+
+}
+
+/*Color de fuente y tamaño del texto del contenido en los componentes de cuadro en la pagina de inicio*/
+.font_size_four{
+    font-size: calc(1em);
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1.0);
+    padding-top: 0.3ch;
+}
+
+/*Color de fuente y tamaño del texto del contenido en los componentes de cuadro en la pagina de inicio*/
+.font_size_five{
+    font-size: calc(1.1em);
+    font-weight: bold;
+    color: rgb(247, 247, 247);
+    padding-top: 1.5ch;
+    text-align: center;
+    
+}
+
+/*Color de fuente y tamaño del contenido de los cuadro componentes*/
+.font_size_letter{
+    font-size: calc(1em);
+    color: rgba(66, 66, 66, 0.7);
+}
+
+
+/*Color de fuente y tamaño del contenido de los cuadro componentes de checkIn*/
+.font_size_letter_one{
+    font-size: calc(0.9em);
+    color: rgba(66, 66, 66, 0.7);
+
+}
+
+/*Tamaño de los iconos SVG*/
+.svg_width{
+    width: calc(5vh);
+}
+
+.icon-container {
+    display: flex; /* Usamos flexbox para alinear verticalmente los elementos */
+    align-items: center; /* Centramos verticalmente los elementos */
+  }
+
+.line{
+    height: 1px; /* Altura de la línea */
+    width: 270px; /* Ancho de la línea */
+    background-color: black; /* Color de la línea */
+    margin-left: 10px; /* Espacio entre el icono y la línea (ajusta según necesites) */
+}
+
+/*Transicion de los iconos*/
+.svg_width:hover{
+    width: calc(6vh);
+    transition: 0.5s;
+}
+
+/*Color de los iconos*/
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*Tamaño de los iconos SVG del componente cuadro*/
+.svg_width_one{
+    width: calc(3vh);
+}
+
+/*Color del titulo del componente cuadro*/
+.font_color{
+    color: black;
+}
+
+.font_color_one{
+    color: #ffffff;
+}
+/*Color del texto del componente IR administrador*/
+.font_color_two{
+    font-weight: bold;
+    font-size: calc(1.3em);
+    color: white
+}
+
+
+/*Componente de adorno de los cuadros de inicio y main Verde oscuro*/
+.div_w_one{
+    width: calc(3vw);
+    height: calc(2.5vh);
+    border-radius: 20px;
+    background-color: #0F6466;
+}
+
+/*Componente de adorno de los cuadros de inicio y main marron*/
+.div_w_two{
+    width: calc(3vw);
+    height: calc(2.5vh);
+    border-radius: 20px;
+    background-color: #A68F4B;
+}
+/*Componente de adorno de los cuadros de inicio y main verde*/
+.div_w_three{
+    width: calc(3vw);
+    height: calc(2.5vh);
+    border-radius: 20px;
+    background-color: #03A64A;
+}
+
+/*Componente IR del home_Page color beige*/
+.div_w_four{
+    width: calc(7vw);
+    height: calc(2.5vh);
+    border-radius: 20px;
+    background-color: #D9B07E;
+}
+
+/*Componente IR del home_Page color gris*/
+.div_w_five{
+    width: calc(7vw);
+    height: calc(2.5vh);
+    border-radius: 20px;
+    background-color: #2C3532;
+}
+
+
+
+
+/*Componente cuadro color verde oscuro */
+.bg_color{
+    width: 260px;
+    height: 310px;
+    background-color: #D2E8E3;
+    border-radius: 20px;
+}
+
+/*Componente cuadro color beige/naranja*/
+.bg_color_two{
+    width: 260px;
+    height: 280px;
+    background-color: #F2EBDC;
+    border-radius: 20px;
+}
+
+/*Componente verde super claro*/
+.bg_color_three{
+    width: 260px;
+    height: 310px;
+    background-color: #E4F2E7;
+    border-radius: 20px;
+}
+
+.bg_color_four{
+    width: 350px;
+    height: 360px;
+    background-color: #F2EBDC;
+    border-radius: 20px;
+}
+
+.bg_color_five{
+    width: 270px;
+    height: 250px;
+    background-color: #D2E8E3;
+    border-radius: 20px;
+}
+
+.bg_color_six{
+    width: 270px;
+    height: 250px;
+    background-color: #E4F2E7;
+    border-radius: 20px;
+}
+
+.bg_color_seven{
+    width: 20vh;
+    background-color: #F2EBDC;
+    border-radius: 20px;
+}
+
+
+/*Componente Hoteleria */
+  .div_p{
+    width: calc(200px);
+    height: calc(35px);
+    border-radius: 20px;
+    background-color: #ffffff;
+    border: #000 solid 3px;
+    color: black;
+
+}
+
+/* Componente Todos los formatos Style checking*/
+.div_t{
+    width: calc(250px);
+    height: calc(55px);
+    border-radius: 30px;
+    background-color: #90A19D;
+   
+}
+
+/*Underline baja el texto una linea  */
+  .underline-up {
+    position: relative;
+  }
+  
+  /*Este estilo alinea el texto con el subrayado */
+  .palabra {
+    font-weight: 500;
+    position: relative;
+    z-index: 2; /* Coloca la palabra sobre el subrayado */
+  }
+
+    /*Subrayado del titulo main*/
+    .subrayado{
+        position: absolute;
+        width: 73%;
+        height: 36px; /* Puedes ajustar la altura según tus preferencias */
+        background-color: #FEB5CB; /* Color del subrayado */
+        bottom: 0;
+        z-index: 1; /* Coloca el subrayado detrás de la palabra */
+    }
+
+  /*Subrayado del titutlo checkin*/
+  .subrayado-one {
+    position: absolute;
+    width: 49%;
+    height: 36px; /* Puedes ajustar la altura según tus preferencias */
+    background-color: #FEB5CB; /* Color del subrayado */
+    bottom: 0;
+    z-index: 1; /* Coloca el subrayado detrás de la palabra */
+  }
+
+  /*Subrayado del titutlo de INICIO*/
+  .subrayado-two {
+    position: absolute;
+    width: 98%;
+    height: 36px; /* Puedes ajustar la altura según tus preferencias */
+    background-color: #FEB5CB; /* Color del subrayado */
+    bottom: 0;
+    z-index: 1; /* Coloca el subrayado detrás de la palabra */
+  }
+
+  /*Pocision cuadro main-page reservacion*/
+  .contener-one{
+    height: 75%;
+    align-items: center;
+  }
+
+  /*Pocision cuadro Check-in*/
+  .contener-two{
+    height: 90%;
+    align-items: center;
+  }
+
+  .contener-three{
+    height: 20vh;
+    align-items: center;
+  }
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*CheckOut*/
+
+ /*Boton fijo de exit pass*/
+ .fixed-button {
+  position: fixed;
+    
+  bottom: 20px;
+  right: 20px;
+  background-color: #90A19D;
+  height: 64px;
+  width: 64px;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 100%;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilo base para el contenedor del icono */
+.save-icon {
+    width: 30px;
+    height: 30px;
+    right: 46px;
+    bottom: 48px;
+    position:  fixed;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  /* Estilo para el ícono de disco */
+  .save-icon::before {
+    content: '\1F4BE'; /* Código Unicode para el ícono de disco (puedes cambiarlo según tus necesidades) */
+    font-size: 22px;
+  }
+
+ /*Subrayado del titutlo checkout*/
+ .subrayado-three {
+    position: absolute;
+    width: 60%;
+    height: 36px; /* Puedes ajustar la altura según tus preferencias */
+    background-color:  rgba(242, 206, 162, 0.6); /* Color del subrayado */
+    bottom: 0;
+    z-index: 1; /* Coloca el subrayado detrás de la palabra */
+  }
+
+  /* Componente "Todos los formatos" Style checkOut*/
+.div_t_one{
+    width: calc(250px);
+    height: calc(55px);
+    border-radius: 30px;
+    background-color: rgba(166, 116, 73, 1);
+}
+
+.bg_color_seven{
+    width: 370px;
+    height: 340px;
+    top: 156px;
+    left: 730px;
+    background-color: rgba(242, 235, 220, 1);
+    border-radius: 20px;
+}
+
+.bg_color_eight{
+    width: 30vh;
+    height: 30vh;
+    top: 156px;
+    left: 730px;
+    background-color: rgba(242, 232, 223, 1);
+    border-radius: 20px;
+    font-size: smaller;
+}
+.bg_color_nine{
+    width: 30vh;
+    height: 30vh;
+    top: 156px;
+    left: 730px;
+    background-color: rgb(248, 238, 228, 1);
+    border-radius: 20px;
+    font-size: smaller;
+}
+/*Componente IR del home_Page color beige*/
+.div_w_six{
+    width: 210px;
+    height: 45px;
+    border-radius: 20px;
+    background-color: rgba(115, 76, 41, 1);
+}
+
+/*Color de fuente y tamaño del texto del contenido en los componentes de cuadro en la pagina de inicio*/
+.font_size_six{
+    font-size: calc(1.2em);
+    color: rgba(66, 66, 66, 0.75);
+
+}
+
+/*Subrayado palabra caja*/
+.subrayado-negrilla {
+    font-weight: bold;
+  }
+
+.juntar-div{
+    padding-right: 5%;
+}
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*ACCOMODATIONCONTRACT*/
+.separacion-texto{
+    padding-top: 10px;
+}
+
+
+.g-3-record, .gy-3-record{
+    --bs-gutter-y: 0rem;
+}
+.separacion{
+    padding-left: 2%;
+    color: #95BFA4;
+}
+
+.borde-redondo{
+    border-radius: 5%;
+}
+
+.barra-inferior {
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1); /* Sombra ligera en la parte inferior */
+}
+
+.navbar-checkin {
+    border-radius: 15px;
+    background-color: #90A19D;
+    width: 95%;
+    margin: 10px;
+    width: 60px;
+  }
+  
+  .boton-mas {
+    border: none;
+    border-radius: 50%;
+    background-color: #95BFA4; /* Puedes ajustar el color de fondo según tus preferencias */
+    color: #fff; /* Puedes ajustar el color del texto según tus preferencias */
+    width: 40px; /* Puedes ajustar el tamaño del botón según tus preferencias */
+    height: 40px; /* Puedes ajustar el tamaño del botón según tus preferencias */
+    font-size: 18px; /* Puedes ajustar el tamaño del texto según tus preferencias */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none; /* Elimina el contorno del botón al hacer clic */
+  }
+  
+  .boton-mas:hover {
+    background-color: #90A19D; /* Cambia el color de fondo al pasar el ratón sobre el botón */
+  }
+
+  /* Estilo del botón */
+  .eye-button {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    display: inline-flex;
+    align-items: center;
+    background-color: #bfdb34;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+    height: 64px;
+    width: 64px;
+  }
+
+  /* Estilo del icono de ojo */
+  .eye-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+    fill: #fff;
+  }
