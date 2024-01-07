@@ -1,0 +1,67 @@
+.navbar-formatos {
+  border-radius: 15px;
+  background-color: #90A19D;
+  width: 95%;
+  margin: 10px;
+}
+
+.Seccion-Pass{
+  border: 1px solid;
+}
+.input-name{
+    border-bottom: 1px;
+}
+
+.container-Exit-pass{
+  padding: 20px;
+  
+}
+
+
+.form-control-nombre{
+  border-radius: 0;
+}
+
+.form-control-fecha{
+  border-top: 1px solid;
+}
+
+.btn-hotel {
+  background-color: #ffcc00; 
+  border: 2px solid #d9a300; 
+  color: #331a00;
+}
+
+.btn-hotel:hover {
+  background-color: #ffdb4d; 
+  border: 2px solid #b38600; 
+  color: #331a00; 
+}
+
+.btn-hotel i {
+  font-size: 1.25em;
+  margin-right: 5px; 
+}
+
+.btn-delete {
+  background-color: rgb(180, 0, 0);
+  border-radius: 10px;
+  border: 2px solid rgb(134, 0, 0);
+}
+
+.btn-delete:hover{
+  background-color: rgb(138, 0, 0);
+  border-radius: 20px;
+  border: 2px solid rgb(107, 0, 0);
+}
+.subrayado-OutletPass{
+  position: absolute;
+  width: 25%;
+  height: 25px; /* Puedes ajustar la altura según tus preferencias */
+  background-color: #FEB5CB; /* Color del subrayado */
+  bottom: 0;
+  z-index: 1;
+}
+
+
+
