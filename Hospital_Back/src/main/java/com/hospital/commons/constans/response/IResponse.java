@@ -1,6 +1,7 @@
 package com.hospital.commons.constans.response;
 
-public interface IResponse {
+public interface
+IResponse {
     String OPERATION_SUCCESS = "Operación exitosa";
     String OPERATION_FAIL = "Operación fallida";
     String CREATE_SUCCESS = "OK se creo correctamente";
